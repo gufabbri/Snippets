@@ -1,0 +1,22 @@
+"Tabela Pai x Filho": {
+		"prefix": "paix",
+		"body": [
+		  "<table tablename=\"$1\" class=\"table\" id=\"$2\" noaddbutton=\"true\"readonly>",
+		  "		<thead>",
+		  "			<tr>",
+		  "				<th></th>",
+		  "			</tr>",
+		  "		</thead>",
+		  "		<tbody>",
+		  "			<tr>",
+		  "				<td></td>",
+		  "			</tr>",
+		  "		</tbody>",
+		  "</table>",
+		  "<div class=\"row col-md-12\">",
+		  "  <button class=\"btn btn-primary\" id=\"\" name=\"\">",
+		  "			Adicionar</button>",
+		  "</div>"
+		],
+		"description": "Tabela Pai x Filho"
+	  }
