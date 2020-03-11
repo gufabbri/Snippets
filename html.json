@@ -20,3 +20,29 @@
 		],
 		"description": "Tabela Pai x Filho"
 	  }
+	  
+"botoes de aprovacao": {
+  "prefix": "btnaprov",
+  "body": [
+    "<div class=\"col-md-6\" id=\"divBotoesProsseguir\">",
+    "					<div class=\"row\">",
+    "						<div>",
+    "							<input type=\"radio\" name=\"aprovController\" id=\"prosseguir\" value=\"PROSSEGUIR\"",
+    "								hidden onchange=\"Motivo()\" />",
+    "							<label class=\"col-md-5  btn btn-default  aprovar text-center\"",
+    "								for=\"prosseguir\">",
+    "								Prosseguir Processo",
+    "							</label>",
+    "						</div>",
+    "						<div>",
+    "							<input type=\"radio\" name=\"aprovController\" id=\"nao_prosseguir\" value=\"NAOPROSSEGUIR\"",
+    "								hidden onchange=\"Motivo()\"/>",
+    "							<label class=\"col-md-5 btn btn-default reprovar text-center\"",
+    "								for=\"nao_prosseguir\">",
+    "								Não Prosseguir",
+    "							</label>",
+    "						</div>",
+    "					</div>"
+  ],
+  "description": "botoes de aprovacao"
+}
